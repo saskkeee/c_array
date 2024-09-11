@@ -11,12 +11,12 @@ int main()
 	for (unsigned i = 0; i < size(&test); i++)
 	{
 		printf("element %i | value %i \n", i, get(&test, i));
-	}
+	} //Output 5 & 10
 	pop(&test);
 	for (unsigned i = 0; i < size(&test); i++)
 	{
-		printf("element %i | value %i \n", i, get(&test, i));
-	}
+		printf("element %i | value %i \n", i, get(&test, i)); 
+	} //Output 5
 	clear(&test);
 }
 ```
