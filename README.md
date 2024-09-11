@@ -21,7 +21,7 @@ int main()
 }
 ```
 
-##----
+
 
 ```
 push(array,value) - Appends the specified element to the end of this list.
