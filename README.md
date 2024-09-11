@@ -20,3 +20,13 @@ int main()
 	clear(&test);
 }
 ```
+
+##----
+
+```
+push(array,value) - Appends the specified element to the end of this list.
+pop(array) - Removes the last element from this list.
+clear(array) - Clears the memory(Deletes Array)
+size(array) - Returns size of array
+get(array,index) - Returns element by its index
+```
