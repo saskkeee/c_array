@@ -16,7 +16,7 @@ int main()
 }
 ```
 
-##All Methods
+## All Methods
 ```
 push(array,element)
 pop(array)
