@@ -7,26 +7,21 @@ int main()
 {
 	struct array test = carray();
 	push(&test, 5);
-	push(&test, 10);
-	for (unsigned i = 0; i < size(&test); i++)
-	{
-		printf("element %i | value %i \n", i, get(&test, i));
-	} //Output 5 & 10
+	printf("before: %i\n", (int) get(&test,0));
+	set(&test, 0, 10);
+	printf("after: %i\n", (int) get(&test, 0));
 	pop(&test);
-	for (unsigned i = 0; i < size(&test); i++)
-	{
-		printf("element %i | value %i \n", i, get(&test, i)); 
-	} //Output 5
+	printf("after pop: %i\n", (int)get(&test, 0)); //Index out of Bound 0
 	clear(&test);
 }
 ```
 
-
-
+##All Methods
 ```
-push(array,value) - Appends the specified element to the end of this list.
-pop(array) - Removes the last element from this list.
-clear(array) - Clears the memory(Deletes Array)
-size(array) - Returns size of array
-get(array,index) - Returns element by its index
+push(array,element)
+pop(array)
+set(array,index,element)
+clear(array)
+get(array,index)
+remove_at(array,index)
 ```
