@@ -2,7 +2,7 @@ Array written in C
 
 ## Usage
 
-```
+```c
 int main()
 {
 	struct array test = carray();
