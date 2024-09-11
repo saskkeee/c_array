@@ -1,1 +1,1 @@
-A simple list written in C  
+Array written in C  
